@@ -15,8 +15,14 @@ stages:
       - artifacts/service_catalog.cleaned.json
     params:
       - retrieval.top_k
+      - retrieval.min_score
+      - retrieval.keyword_weight
+      - retrieval.ambiguity_margin
       - agent.model_name
       - agent.use_tool_calling
+      - agent.require_sources
+      - agent.default_confidence
+      - agent.unclear_confidence
       - evaluation.max_examples
     outs:
       - artifacts/eval_predictions.json
