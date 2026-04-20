@@ -1,0 +1,6 @@
+{
+  "jurisdiction_accuracy": 0.875,
+  "responsible_body_accuracy": 0.875,
+  "source_presence_rate": 1.0,
+  "n_examples": 8
+}

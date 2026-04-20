@@ -1,0 +1,13 @@
+retrieval:
+  top_k: 3
+  min_score: 1
+  keyword_weight: 1.0
+  ambiguity_margin: 1
+agent:
+  model_name: gemini-2.5-flash
+  use_tool_calling: true
+  require_sources: true
+  default_confidence: 0.78
+  unclear_confidence: 0.35
+evaluation:
+  max_examples: 100

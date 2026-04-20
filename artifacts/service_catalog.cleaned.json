@@ -1,0 +1,251 @@
+[
+  {
+    "service_name":"garbage pickup",
+    "jurisdiction_level":"Region",
+    "responsible_body":"Region of Waterloo Waste Management",
+    "description":"Residential garbage collection schedule, missed pickup, and waste cart information.",
+    "keywords":"garbage;waste;pickup;missed collection;curbside",
+    "next_steps_hint":"Check the regional waste collection schedule; report a missed pickup if applicable",
+    "source_url":"https:\/\/www.regionofwaterloo.ca\/",
+    "service_name_normalized":"garbage pickup",
+    "keywords_list":[
+      "garbage",
+      "waste",
+      "pickup",
+      "missed collection",
+      "curbside"
+    ],
+    "retrieval_text":"garbage pickup | residential garbage collection schedule, missed pickup, and waste cart information. | garbage;waste;pickup;missed collection;curbside | region of waterloo waste management"
+  },
+  {
+    "service_name":"recycling collection",
+    "jurisdiction_level":"Region",
+    "responsible_body":"Region of Waterloo Waste Management",
+    "description":"Blue box recycling collection and schedule information.",
+    "keywords":"recycling;blue box;collection",
+    "next_steps_hint":"Check the regional collection calendar and recycling guidance",
+    "source_url":"https:\/\/www.regionofwaterloo.ca\/",
+    "service_name_normalized":"recycling collection",
+    "keywords_list":[
+      "recycling",
+      "blue box",
+      "collection"
+    ],
+    "retrieval_text":"recycling collection | blue box recycling collection and schedule information. | recycling;blue box;collection | region of waterloo waste management"
+  },
+  {
+    "service_name":"property tax billing",
+    "jurisdiction_level":"City",
+    "responsible_body":"City of Kitchener Revenue Division",
+    "description":"Property tax billing, payment options, and account inquiries for properties in Kitchener.",
+    "keywords":"property tax;tax bill;billing;assessment",
+    "next_steps_hint":"Visit the city's property tax page or contact the revenue division",
+    "source_url":"https:\/\/www.kitchener.ca\/",
+    "service_name_normalized":"property tax billing",
+    "keywords_list":[
+      "property tax",
+      "tax bill",
+      "billing",
+      "assessment"
+    ],
+    "retrieval_text":"property tax billing | property tax billing, payment options, and account inquiries for properties in kitchener. | property tax;tax bill;billing;assessment | city of kitchener revenue division"
+  },
+  {
+    "service_name":"water billing",
+    "jurisdiction_level":"City",
+    "responsible_body":"City of Kitchener Utilities",
+    "description":"Water billing and account inquiries for city utility customers.",
+    "keywords":"water bill;utilities;billing",
+    "next_steps_hint":"Check your city utility account and payment options",
+    "source_url":"https:\/\/www.kitchener.ca\/",
+    "service_name_normalized":"water billing",
+    "keywords_list":[
+      "water bill",
+      "utilities",
+      "billing"
+    ],
+    "retrieval_text":"water billing | water billing and account inquiries for city utility customers. | water bill;utilities;billing | city of kitchener utilities"
+  },
+  {
+    "service_name":"snow removal on regional roads",
+    "jurisdiction_level":"Region",
+    "responsible_body":"Region of Waterloo Transportation Services",
+    "description":"Maintenance and snow clearing for regional roads.",
+    "keywords":"snow removal;plowing;regional roads;winter maintenance",
+    "next_steps_hint":"Confirm whether the road is regional before contacting the Region",
+    "source_url":"https:\/\/www.regionofwaterloo.ca\/",
+    "service_name_normalized":"snow removal on regional roads",
+    "keywords_list":[
+      "snow removal",
+      "plowing",
+      "regional roads",
+      "winter maintenance"
+    ],
+    "retrieval_text":"snow removal on regional roads | maintenance and snow clearing for regional roads. | snow removal;plowing;regional roads;winter maintenance | region of waterloo transportation services"
+  },
+  {
+    "service_name":"snow removal on city streets",
+    "jurisdiction_level":"City",
+    "responsible_body":"City of Kitchener Operations",
+    "description":"Maintenance and snow clearing for local city streets and sidewalks where applicable.",
+    "keywords":"snow removal;city streets;plowing;roads",
+    "next_steps_hint":"Check the city operations page for winter maintenance details",
+    "source_url":"https:\/\/www.kitchener.ca\/",
+    "service_name_normalized":"snow removal on city streets",
+    "keywords_list":[
+      "snow removal",
+      "city streets",
+      "plowing",
+      "roads"
+    ],
+    "retrieval_text":"snow removal on city streets | maintenance and snow clearing for local city streets and sidewalks where applicable. | snow removal;city streets;plowing;roads | city of kitchener operations"
+  },
+  {
+    "service_name":"child care subsidies",
+    "jurisdiction_level":"Province",
+    "responsible_body":"Government of Ontario",
+    "description":"Provincial child care funding and policy frameworks, often administered locally.",
+    "keywords":"childcare;daycare;subsidy;ontario",
+    "next_steps_hint":"Review Ontario child care support information and local intake guidance",
+    "source_url":"https:\/\/www.ontario.ca\/",
+    "service_name_normalized":"child care subsidies",
+    "keywords_list":[
+      "childcare",
+      "daycare",
+      "subsidy",
+      "ontario"
+    ],
+    "retrieval_text":"child care subsidies | provincial child care funding and policy frameworks, often administered locally. | childcare;daycare;subsidy;ontario | government of ontario"
+  },
+  {
+    "service_name":"public health inspections",
+    "jurisdiction_level":"Region",
+    "responsible_body":"Region of Waterloo Public Health",
+    "description":"Food premise inspections and public health reporting.",
+    "keywords":"public health;inspection;restaurant inspection;food safety",
+    "next_steps_hint":"Search the Region's public health resources or inspection tools",
+    "source_url":"https:\/\/www.regionofwaterloo.ca\/",
+    "service_name_normalized":"public health inspections",
+    "keywords_list":[
+      "public health",
+      "inspection",
+      "restaurant inspection",
+      "food safety"
+    ],
+    "retrieval_text":"public health inspections | food premise inspections and public health reporting. | public health;inspection;restaurant inspection;food safety | region of waterloo public health"
+  },
+  {
+    "service_name":"employment insurance",
+    "jurisdiction_level":"Federal",
+    "responsible_body":"Government of Canada",
+    "description":"Employment Insurance benefits, eligibility, and application process.",
+    "keywords":"employment insurance;EI;benefits",
+    "next_steps_hint":"Use the federal service portal and application guidance",
+    "source_url":"https:\/\/www.canada.ca\/",
+    "service_name_normalized":"employment insurance",
+    "keywords_list":[
+      "employment insurance",
+      "ei",
+      "benefits"
+    ],
+    "retrieval_text":"employment insurance | employment insurance benefits, eligibility, and application process. | employment insurance;ei;benefits | government of canada"
+  },
+  {
+    "service_name":"passport services",
+    "jurisdiction_level":"Federal",
+    "responsible_body":"Government of Canada",
+    "description":"Passport issuance, renewal, and service standards.",
+    "keywords":"passport;travel document;renewal",
+    "next_steps_hint":"Use Service Canada passport guidance",
+    "source_url":"https:\/\/www.canada.ca\/",
+    "service_name_normalized":"passport services",
+    "keywords_list":[
+      "passport",
+      "travel document",
+      "renewal"
+    ],
+    "retrieval_text":"passport services | passport issuance, renewal, and service standards. | passport;travel document;renewal | government of canada"
+  },
+  {
+    "service_name":"public transit",
+    "jurisdiction_level":"Mixed",
+    "responsible_body":"Grand River Transit \/ Regional municipality context",
+    "description":"Transit service information in Waterloo Region; depending on framing may be regional transit governance or local operational questions.",
+    "keywords":"bus;transit;GRT;routes;fares",
+    "next_steps_hint":"Clarify whether the request is about routes, fares, governance, or accessibility",
+    "source_url":"https:\/\/www.grt.ca\/",
+    "service_name_normalized":"public transit",
+    "keywords_list":[
+      "bus",
+      "transit",
+      "grt",
+      "routes",
+      "fares"
+    ],
+    "retrieval_text":"public transit | transit service information in waterloo region; depending on framing may be regional transit governance or local operational questions. | bus;transit;grt;routes;fares | grand river transit \/ regional municipality context"
+  },
+  {
+    "service_name":"road pothole on local street",
+    "jurisdiction_level":"City",
+    "responsible_body":"City of Kitchener Transportation Services",
+    "description":"Reporting potholes or road defects on local city streets.",
+    "keywords":"pothole;road repair;local street",
+    "next_steps_hint":"Report the issue through the city's service channels",
+    "source_url":"https:\/\/www.kitchener.ca\/",
+    "service_name_normalized":"road pothole on local street",
+    "keywords_list":[
+      "pothole",
+      "road repair",
+      "local street"
+    ],
+    "retrieval_text":"road pothole on local street | reporting potholes or road defects on local city streets. | pothole;road repair;local street | city of kitchener transportation services"
+  },
+  {
+    "service_name":"road pothole on regional road",
+    "jurisdiction_level":"Region",
+    "responsible_body":"Region of Waterloo Transportation Services",
+    "description":"Reporting potholes or road defects on regional roads.",
+    "keywords":"pothole;regional road;road repair",
+    "next_steps_hint":"Confirm road ownership and report through regional channels",
+    "source_url":"https:\/\/www.regionofwaterloo.ca\/",
+    "service_name_normalized":"road pothole on regional road",
+    "keywords_list":[
+      "pothole",
+      "regional road",
+      "road repair"
+    ],
+    "retrieval_text":"road pothole on regional road | reporting potholes or road defects on regional roads. | pothole;regional road;road repair | region of waterloo transportation services"
+  },
+  {
+    "service_name":"income tax filing",
+    "jurisdiction_level":"Federal",
+    "responsible_body":"Canada Revenue Agency",
+    "description":"Personal income tax filing and account support.",
+    "keywords":"income tax;CRA;tax return",
+    "next_steps_hint":"Use CRA account and filing guidance",
+    "source_url":"https:\/\/www.canada.ca\/",
+    "service_name_normalized":"income tax filing",
+    "keywords_list":[
+      "income tax",
+      "cra",
+      "tax return"
+    ],
+    "retrieval_text":"income tax filing | personal income tax filing and account support. | income tax;cra;tax return | canada revenue agency"
+  },
+  {
+    "service_name":"drivers licence renewal",
+    "jurisdiction_level":"Province",
+    "responsible_body":"Government of Ontario \/ ServiceOntario",
+    "description":"Driver licensing and renewal services in Ontario.",
+    "keywords":"drivers licence;license renewal;serviceontario",
+    "next_steps_hint":"Use ServiceOntario licensing guidance",
+    "source_url":"https:\/\/www.ontario.ca\/",
+    "service_name_normalized":"drivers licence renewal",
+    "keywords_list":[
+      "drivers licence",
+      "license renewal",
+      "serviceontario"
+    ],
+    "retrieval_text":"drivers licence renewal | driver licensing and renewal services in ontario. | drivers licence;license renewal;serviceontario | government of ontario \/ serviceontario"
+  }
+]
