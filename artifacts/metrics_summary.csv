@@ -1,0 +1,4 @@
+method,hit_rate
+Keyword baseline,0.4
+Retrieval-based workflow,1.0
+Tool-using agent,1.0

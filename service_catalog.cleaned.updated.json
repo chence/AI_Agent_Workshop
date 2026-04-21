@@ -1,0 +1,58 @@
+[
+  {
+    "service_name":"garbage pickup",
+    "jurisdiction_level":"Region",
+    "responsible_body":"Region of Waterloo Waste Management",
+    "description":"Resident garbage collection services.",
+    "source_url":"https:\/\/www.regionofwaterloo.ca\/",
+    "keywords":""
+  },
+  {
+    "service_name":"property tax billing",
+    "jurisdiction_level":"City",
+    "responsible_body":"City of Kitchener Revenue Division",
+    "description":"Property tax billing and payments.",
+    "source_url":"https:\/\/www.kitchener.ca\/",
+    "keywords":""
+  },
+  {
+    "service_name":"snow removal on city streets",
+    "jurisdiction_level":"City",
+    "responsible_body":"City of Kitchener Operations",
+    "description":"Snow clearing for city streets.",
+    "source_url":"https:\/\/www.kitchener.ca\/",
+    "keywords":""
+  },
+  {
+    "service_name":"public health inspections",
+    "jurisdiction_level":"Region",
+    "responsible_body":"Region of Waterloo Public Health",
+    "description":"Restaurant and food safety inspections.",
+    "source_url":"https:\/\/www.regionofwaterloo.ca\/",
+    "keywords":""
+  },
+  {
+    "service_name":"Snow removal",
+    "jurisdiction_level":"City",
+    "responsible_body":"City of Kitchener",
+    "description":"Snow clearing and winter road maintenance within the city.",
+    "source_url":"",
+    "keywords":"snow; winter; roads; plowing"
+  },
+  {
+    "service_name":"Passport renewal",
+    "jurisdiction_level":"Federal",
+    "responsible_body":"Government of Canada",
+    "description":"Passport application and renewal services for Canadian residents.",
+    "source_url":"",
+    "keywords":"passport; renewal; travel; federal"
+  },
+  {
+    "service_name":"OHIP card",
+    "jurisdiction_level":"Province",
+    "responsible_body":"Government of Ontario",
+    "description":"Ontario health card services including renewal and updates.",
+    "source_url":"",
+    "keywords":"ohip; health card; medical; ontario"
+  }
+]

@@ -1,0 +1,61 @@
+question,expected_service,difficulty,type,keyword_baseline,retrieval_workflow,tool_using_agent
+Who handles garbage pickup for apartments?,garbage pickup,medium,specific scenario,Garbage pickup is likely handled by the Region of Waterloo.,"Service: garbage pickup
+Description: Resident garbage collection services.
+Responsible body: Region of Waterloo Waste Management
+Next step: Please check the official source for the next step.
+Official source: https://www.regionofwaterloo.ca/","Service: garbage pickup
+Jurisdiction level: Region
+Responsible body: Region of Waterloo Waste Management
+Description: Resident garbage collection services.
+Source URL: https://www.regionofwaterloo.ca/
+
+Confidence: high
+Next step: Use the official source URL to confirm details and contact the responsible body."
+My road is icy. Who is responsible for snow clearing?,Snow removal,hard,mixed ownership,Snow or road-related issues may depend on the city or region.,"Service: Snow removal
+Description: Snow clearing and winter road maintenance within the city.
+Responsible body: City of Kitchener
+Next step: Please check the official source for the next step.
+Official source: ","Service: Snow removal
+Jurisdiction level: City
+Responsible body: City of Kitchener
+Description: Snow clearing and winter road maintenance within the city.
+Source URL: nan
+
+Confidence: medium
+Next step: The service was found, but the source URL is missing. Verify details on the official municipal website."
+How do I renew my passport quickly?,Passport renewal,medium,federal service,Passport services are handled by the Government of Canada.,"Service: Passport renewal
+Description: Passport application and renewal services for Canadian residents.
+Responsible body: Government of Canada
+Next step: Please check the official source for the next step.
+Official source: ","Service: Passport renewal
+Jurisdiction level: Federal
+Responsible body: Government of Canada
+Description: Passport application and renewal services for Canadian residents.
+Source URL: nan
+
+Confidence: medium
+Next step: The service was found, but the source URL is missing. Verify details on the official municipal website."
+Where can I update my OHIP card after moving?,OHIP card,hard,provincial service,OHIP or health card services are handled by the Government of Ontario.,"Service: OHIP card
+Description: Ontario health card services including renewal and updates.
+Responsible body: Government of Ontario
+Next step: Please check the official source for the next step.
+Official source: ","Service: OHIP card
+Jurisdiction level: Province
+Responsible body: Government of Ontario
+Description: Ontario health card services including renewal and updates.
+Source URL: nan
+
+Confidence: medium
+Next step: The service was found, but the source URL is missing. Verify details on the official municipal website."
+I need housing help urgently. Who should I contact?,Housing support,hard,unclear case,Housing support may involve different agencies depending on the situation.,"Service: Housing support
+Description: Housing support programs may depend on the type of service and user situation.
+Responsible body: Various agencies
+Next step: Please check the official source for the next step.
+Official source: ","The request for 'Housing support' may involve more than one authority.
+
+Jurisdiction label: Unclear
+Possible responsible body: Various agencies
+Description: Housing support programs may depend on the type of service and user situation.
+Official source: nan
+
+This answer should be treated cautiously. You may need to confirm whether the issue belongs to the City, the Region, or another agency."

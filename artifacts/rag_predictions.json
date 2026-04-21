@@ -1,0 +1,195 @@
+[
+  {
+    "question":"Who do I contact about garbage pickup?",
+    "expected_service_name":"garbage pickup",
+    "expected_jurisdiction_level":"Region",
+    "expected_responsible_body":"Region of Waterloo Waste Management",
+    "predicted_service_name":"garbage pickup",
+    "predicted_jurisdiction_level":"Region",
+    "predicted_responsible_body":"Region of Waterloo Waste Management",
+    "sources":[
+      "https:\/\/www.regionofwaterloo.ca\/"
+    ],
+    "method_note":"rag model call"
+  },
+  {
+    "question":"Is childcare a city or provincial service?",
+    "expected_service_name":"child care subsidies",
+    "expected_jurisdiction_level":"Province",
+    "expected_responsible_body":"Government of Ontario",
+    "predicted_service_name":"child care subsidies",
+    "predicted_jurisdiction_level":"Province",
+    "predicted_responsible_body":"Government of Ontario",
+    "sources":[
+      "https:\/\/www.ontario.ca\/",
+      "https:\/\/www.grt.ca\/",
+      "https:\/\/www.kitchener.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  },
+  {
+    "question":"Who handles my property tax bill in Kitchener?",
+    "expected_service_name":"property tax billing",
+    "expected_jurisdiction_level":"City",
+    "expected_responsible_body":"City of Kitchener Revenue Division",
+    "predicted_service_name":"property tax billing",
+    "predicted_jurisdiction_level":"City",
+    "predicted_responsible_body":"City of Kitchener Revenue Division",
+    "sources":[
+      "https:\/\/www.kitchener.ca\/",
+      "https:\/\/www.kitchener.ca\/",
+      "https:\/\/www.kitchener.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  },
+  {
+    "question":"How do I renew my driver's licence?",
+    "expected_service_name":"drivers licence renewal",
+    "expected_jurisdiction_level":"Province",
+    "expected_responsible_body":"Government of Ontario \/ ServiceOntario",
+    "predicted_service_name":"drivers licence renewal",
+    "predicted_jurisdiction_level":"Province",
+    "predicted_responsible_body":"Government of Ontario \/ ServiceOntario",
+    "sources":[
+      "https:\/\/www.ontario.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  },
+  {
+    "question":"Where do I apply for EI?",
+    "expected_service_name":"employment insurance",
+    "expected_jurisdiction_level":"Federal",
+    "expected_responsible_body":"Government of Canada",
+    "predicted_service_name":"snow removal on city streets",
+    "predicted_jurisdiction_level":"City",
+    "predicted_responsible_body":"City of Kitchener Operations",
+    "sources":[
+      "https:\/\/www.kitchener.ca\/",
+      "https:\/\/www.kitchener.ca\/",
+      "https:\/\/www.kitchener.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  },
+  {
+    "question":"I found a pothole on my street. Who fixes it?",
+    "expected_service_name":"road pothole on local street",
+    "expected_jurisdiction_level":"City",
+    "expected_responsible_body":"City of Kitchener Transportation Services",
+    "predicted_service_name":"road pothole on local street",
+    "predicted_jurisdiction_level":"City",
+    "predicted_responsible_body":"City of Kitchener Transportation Services",
+    "sources":[
+      "https:\/\/www.kitchener.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  },
+  {
+    "question":"Who clears snow on regional roads?",
+    "expected_service_name":"snow removal on regional roads",
+    "expected_jurisdiction_level":"Region",
+    "expected_responsible_body":"Region of Waterloo Transportation Services",
+    "predicted_service_name":"snow removal on regional roads",
+    "predicted_jurisdiction_level":"Region",
+    "predicted_responsible_body":"Region of Waterloo Transportation Services",
+    "sources":[
+      "https:\/\/www.regionofwaterloo.ca\/",
+      "https:\/\/www.kitchener.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  },
+  {
+    "question":"Who do I call about restaurant inspections?",
+    "expected_service_name":"public health inspections",
+    "expected_jurisdiction_level":"Region",
+    "expected_responsible_body":"Region of Waterloo Public Health",
+    "predicted_service_name":"public health inspections",
+    "predicted_jurisdiction_level":"Region",
+    "predicted_responsible_body":"Region of Waterloo Public Health",
+    "sources":[
+      "https:\/\/www.regionofwaterloo.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  },
+  {
+    "question":"My green bin was not collected this morning. Who should I contact?",
+    "expected_service_name":"garbage pickup",
+    "expected_jurisdiction_level":"Region",
+    "expected_responsible_body":"Region of Waterloo Waste Management",
+    "predicted_service_name":"garbage pickup",
+    "predicted_jurisdiction_level":"Region",
+    "predicted_responsible_body":"Region of Waterloo Waste Management",
+    "sources":[
+      "https:\/\/www.regionofwaterloo.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/",
+      "https:\/\/www.kitchener.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  },
+  {
+    "question":"I need help understanding my water bill. Which office handles that?",
+    "expected_service_name":"water billing",
+    "expected_jurisdiction_level":"City",
+    "expected_responsible_body":"City of Kitchener Utilities",
+    "predicted_service_name":"water billing",
+    "predicted_jurisdiction_level":"City",
+    "predicted_responsible_body":"City of Kitchener Utilities",
+    "sources":[
+      "https:\/\/www.kitchener.ca\/",
+      "https:\/\/www.kitchener.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  },
+  {
+    "question":"Who do I contact if my street was not plowed after the snowstorm?",
+    "expected_service_name":"snow removal on city streets",
+    "expected_jurisdiction_level":"City",
+    "expected_responsible_body":"City of Kitchener Operations",
+    "predicted_service_name":"road pothole on local street",
+    "predicted_jurisdiction_level":"City",
+    "predicted_responsible_body":"City of Kitchener Transportation Services",
+    "sources":[
+      "https:\/\/www.kitchener.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  },
+  {
+    "question":"Who should I ask about property tax charges on my house?",
+    "expected_service_name":"property tax billing",
+    "expected_jurisdiction_level":"City",
+    "expected_responsible_body":"City of Kitchener Revenue",
+    "predicted_service_name":"property tax billing",
+    "predicted_jurisdiction_level":"City",
+    "predicted_responsible_body":"City of Kitchener Revenue Division",
+    "sources":[
+      "https:\/\/www.kitchener.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/",
+      "https:\/\/www.kitchener.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  },
+  {
+    "question":"My recycling boxes were missed this week. Who is responsible?",
+    "expected_service_name":"recycling collection",
+    "expected_jurisdiction_level":"Region",
+    "expected_responsible_body":"Region of Waterloo Waste Management",
+    "predicted_service_name":"garbage pickup",
+    "predicted_jurisdiction_level":"Region",
+    "predicted_responsible_body":"Region of Waterloo Waste Management",
+    "sources":[
+      "https:\/\/www.regionofwaterloo.ca\/",
+      "https:\/\/www.regionofwaterloo.ca\/",
+      "https:\/\/www.kitchener.ca\/"
+    ],
+    "method_note":"fallback retrieval result after model failure"
+  }
+]

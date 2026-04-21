@@ -1,45 +1,69 @@
-# AI Agent Architecture Workshop: Municipal Civic Assistant
+# AI Agent Workflow
 
-Welcome to the AI Agent Architecture Workshop. This repository contains the Jupyter Notebooks, datasets, and ML pipeline configurations for a two-day active learning module designed for college-level Machine Learning students. 
+## Team Information
 
-In this workshop, students will transition from traditional predictive machine learning to **agentified AI development**, using the Google Gemini API stack to build an autonomous system capable of reasoning, planning, and executing tool calls.
+**Workshop Team:** Group 1 & Group 7
 
-## 📖 Overview
-The capstone of this workshop is the **Kitchener-Waterloo Municipal Challenge**. Students will build an AI-powered civic assistant that helps residents understand which level of government (City, Region, Province, or Federal) is responsible for specific services and guides them through the correct next steps.
+**Team Members:**
+- Ce Chen (9007166)
+- Zhuoran Zhang (9048508)
+- Haibo Yuan (9010929)
+- Abdalla Mohamed (9089339)
 
-## 🛠️ Prerequisites
-Before starting the workshop, ensure you have the following installed and configured:
-* **Python 3.10+** (managed via Miniconda/Anaconda)
-* **Visual Studio Code** (with the Jupyter extension)
-* **Data Version Control (DVC)**
-* **Google Gemini API Key:** You must generate a free-tier API key via [Google AI Studio](https://aistudio.google.com/).
+**GitHub Repository:**  
+https://github.com/chence/AI_Agent_Workshop.git
 
-## 🗓️ Workshop Structure
+---
 
-### Day 1: Foundations of Agentified Development
-Day one focuses on the architectural shift from static ML models to dynamic LLM Agents.
-* **Concepts Covered:**
-  * Introduction to Agentic Architecture (Memory, Planning, Action).
-  * NLP basics and prompt engineering.
-  * **Function Calling (Tool Use):** Teaching the Gemini model to execute Python code to retrieve external data.
-  * Introduction to ML Pipelines and reproducibility using Data Version Control (DVC).
-* **Key Files:** * `Day1_API_Setup.ipynb`: Secure environment setup and API authentication.
-  * `Day1_Intro_Agents.ipynb`: Foundational tutorial on tool use and Gemini orchestration.
+## Project Summary
 
-### Day 2: The Municipal Challenge (Kitchener/Waterloo)
-Day two is a hands-on lab where students apply Day 1 concepts to a real-world civic problem. Students will build a routing agent that queries local open data portals to answer resident questions (e.g., *"Who do I contact about garbage pickup?"* or *"Is childcare a city or provincial service?"*).
-* **Concepts Covered:**
-  * Complex tool chaining and routing logic.
-  * Ingesting and querying real-world municipal datasets.
-  * Managing datasets and prompt versioning using DVC.
-* **Data Sources Utilized:**
-  * City of Kitchener Open Data Portal
-  * Region of Waterloo Open Data Portal
-  * Ontario Data Catalogue
-  * Government of Canada Open Government Portal
+This project focuses on building a simple civic-service AI agent workflow using a local public-service dataset.
 
-## 🚀 Getting Started
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/ProfEspinosaAIML/AI_Agent_Workshop.git
-   cd AI_Agent_Workshop
+The system was designed to answer user questions such as service ownership, routing responsibility, and next-step guidance.  
+Instead of relying only on prompt responses, we combined retrieval, tool functions, verification logic, and evaluation methods.
+
+Main workflow components include:
+
+1. Knowledge base preparation and data cleaning  
+2. Knowledge base expansion with additional services  
+3. Tool layer for ownership lookup and routing  
+4. Verification layer for grounded answers  
+5. Retrieval layer for richer service information  
+6. Evaluation using benchmark questions  
+7. Metrics tracking and experiment outputs  
+8. DVC pipeline ideas for reproducible workflows
+
+---
+
+## Key Results
+
+- Built a structured AI agent workflow instead of a prompt-only solution  
+- Added support for mixed and unclear civic requests  
+- Compared baseline, retrieval, and tool-based methods  
+- Demonstrated simple benchmark metrics and saved outputs  
+- Improved answer grounding using official source links
+
+---
+
+## Roadblocks Faced
+
+- Some dataset rows had missing fields such as source URLs  
+- Ambiguous requests required hedging instead of direct answers  
+- Matching user wording to service names needed normalization  
+- Some outputs required extra verification for reliability
+
+---
+
+## Possible Missed Outcomes / Future Improvements
+
+- Use semantic search embeddings instead of keyword matching  
+- Add live website retrieval for updated service information  
+- Expand the benchmark dataset with more realistic examples  
+- Improve confidence scoring and ranking logic  
+- Deploy as a web chatbot or civic assistant application
+
+---
+
+## Conclusion
+
+This project helped us understand that successful AI systems depend not only on models, but also on good data, tool design, evaluation, and reproducible workflows.

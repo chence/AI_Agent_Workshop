@@ -1,0 +1,26 @@
+{
+  "keyword_baseline": {
+    "method": "keyword_baseline",
+    "service_name_accuracy": 0.7692307692307693,
+    "jurisdiction_accuracy": 0.9230769230769231,
+    "responsible_body_accuracy": 0.7692307692307693,
+    "source_presence_rate": 1.0,
+    "n_examples": 13
+  },
+  "retrieval_augmented_model": {
+    "method": "retrieval_augmented_model",
+    "service_name_accuracy": 0.7692307692307693,
+    "jurisdiction_accuracy": 0.9230769230769231,
+    "responsible_body_accuracy": 0.7692307692307693,
+    "source_presence_rate": 1.0,
+    "n_examples": 13
+  },
+  "tool_using_agent": {
+    "method": "tool_using_agent",
+    "service_name_accuracy": 0.7692307692307693,
+    "jurisdiction_accuracy": 0.9230769230769231,
+    "responsible_body_accuracy": 0.7692307692307693,
+    "source_presence_rate": 1.0,
+    "n_examples": 13
+  }
+}

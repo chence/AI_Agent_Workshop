@@ -1,212 +1,90 @@
 [
   {
-    "question":"Who do I contact about garbage pickup?",
-    "expected_service_name":"garbage pickup",
-    "expected_jurisdiction_level":"Region",
-    "expected_responsible_body":"Region of Waterloo Waste Management",
     "predicted_service_name":"garbage pickup",
     "predicted_jurisdiction_level":"Region",
     "predicted_responsible_body":"Region of Waterloo Waste Management",
-    "confidence":0.78,
     "sources":[
       "https:\/\/www.regionofwaterloo.ca\/"
     ],
-    "retrieved_candidates":[
-      {
-        "service_name":"garbage pickup",
-        "jurisdiction_level":"Region",
-        "retrieval_score":2.0
-      }
-    ]
+    "question":"Who do I contact about garbage pickup?",
+    "expected_jurisdiction_level":"Region",
+    "expected_responsible_body":"Region of Waterloo Waste Management"
   },
   {
-    "question":"Is childcare a city or provincial service?",
-    "expected_service_name":"child care subsidies",
-    "expected_jurisdiction_level":"Province",
-    "expected_responsible_body":"Government of Ontario",
     "predicted_service_name":"child care subsidies",
     "predicted_jurisdiction_level":"Province",
     "predicted_responsible_body":"Government of Ontario",
-    "confidence":0.58,
     "sources":[
       "https:\/\/www.ontario.ca\/"
     ],
-    "retrieved_candidates":[
-      {
-        "service_name":"child care subsidies",
-        "jurisdiction_level":"Province",
-        "retrieval_score":2.0
-      },
-      {
-        "service_name":"public transit",
-        "jurisdiction_level":"Mixed",
-        "retrieval_score":2.0
-      },
-      {
-        "service_name":"road pothole on local street",
-        "jurisdiction_level":"City",
-        "retrieval_score":2.0
-      }
-    ]
+    "question":"Is childcare a city or provincial service?",
+    "expected_jurisdiction_level":"Province",
+    "expected_responsible_body":"Government of Ontario"
   },
   {
-    "question":"Who handles my property tax bill in Kitchener?",
-    "expected_service_name":"property tax billing",
-    "expected_jurisdiction_level":"City",
-    "expected_responsible_body":"City of Kitchener Revenue Division",
     "predicted_service_name":"property tax billing",
     "predicted_jurisdiction_level":"City",
     "predicted_responsible_body":"City of Kitchener Revenue Division",
-    "confidence":0.78,
     "sources":[
       "https:\/\/www.kitchener.ca\/"
     ],
-    "retrieved_candidates":[
-      {
-        "service_name":"property tax billing",
-        "jurisdiction_level":"City",
-        "retrieval_score":5.0
-      },
-      {
-        "service_name":"drivers licence renewal",
-        "jurisdiction_level":"Province",
-        "retrieval_score":1.0
-      },
-      {
-        "service_name":"income tax filing",
-        "jurisdiction_level":"Federal",
-        "retrieval_score":1.0
-      }
-    ]
+    "question":"Who handles my property tax bill in Kitchener?",
+    "expected_jurisdiction_level":"City",
+    "expected_responsible_body":"City of Kitchener Revenue Division"
   },
   {
-    "question":"How do I renew my driver's licence?",
-    "expected_service_name":"drivers licence renewal",
-    "expected_jurisdiction_level":"Province",
-    "expected_responsible_body":"Government of Ontario \/ ServiceOntario",
     "predicted_service_name":"drivers licence renewal",
     "predicted_jurisdiction_level":"Province",
     "predicted_responsible_body":"Government of Ontario \/ ServiceOntario",
-    "confidence":0.78,
     "sources":[
       "https:\/\/www.ontario.ca\/"
     ],
-    "retrieved_candidates":[
-      {
-        "service_name":"drivers licence renewal",
-        "jurisdiction_level":"Province",
-        "retrieval_score":2.0
-      }
-    ]
+    "question":"How do I renew my driver's licence?",
+    "expected_jurisdiction_level":"Province",
+    "expected_responsible_body":"Government of Ontario \/ ServiceOntario"
   },
   {
-    "question":"Where do I apply for EI?",
-    "expected_service_name":"employment insurance",
-    "expected_jurisdiction_level":"Federal",
-    "expected_responsible_body":"Government of Canada",
     "predicted_service_name":"snow removal on city streets",
     "predicted_jurisdiction_level":"City",
     "predicted_responsible_body":"City of Kitchener Operations",
-    "confidence":0.58,
     "sources":[
       "https:\/\/www.kitchener.ca\/"
     ],
-    "retrieved_candidates":[
-      {
-        "service_name":"snow removal on city streets",
-        "jurisdiction_level":"City",
-        "retrieval_score":2.0
-      },
-      {
-        "service_name":"employment insurance",
-        "jurisdiction_level":"Federal",
-        "retrieval_score":1.0
-      },
-      {
-        "service_name":"property tax billing",
-        "jurisdiction_level":"City",
-        "retrieval_score":1.0
-      }
-    ]
+    "question":"Where do I apply for EI?",
+    "expected_jurisdiction_level":"Federal",
+    "expected_responsible_body":"Government of Canada"
   },
   {
-    "question":"I found a pothole on my street. Who fixes it?",
-    "expected_service_name":"road pothole on local street",
-    "expected_jurisdiction_level":"City",
-    "expected_responsible_body":"City of Kitchener Transportation Services",
     "predicted_service_name":"road pothole on local street",
     "predicted_jurisdiction_level":"City",
     "predicted_responsible_body":"City of Kitchener Transportation Services",
-    "confidence":0.58,
     "sources":[
       "https:\/\/www.kitchener.ca\/"
     ],
-    "retrieved_candidates":[
-      {
-        "service_name":"road pothole on local street",
-        "jurisdiction_level":"City",
-        "retrieval_score":3.0
-      },
-      {
-        "service_name":"road pothole on regional road",
-        "jurisdiction_level":"Region",
-        "retrieval_score":2.0
-      },
-      {
-        "service_name":"public transit",
-        "jurisdiction_level":"Mixed",
-        "retrieval_score":1.0
-      }
-    ]
+    "question":"I found a pothole on my street. Who fixes it?",
+    "expected_jurisdiction_level":"City",
+    "expected_responsible_body":"City of Kitchener Transportation Services"
   },
   {
-    "question":"Who clears snow on regional roads?",
-    "expected_service_name":"snow removal on regional roads",
-    "expected_jurisdiction_level":"Region",
-    "expected_responsible_body":"Region of Waterloo Transportation Services",
     "predicted_service_name":"snow removal on regional roads",
     "predicted_jurisdiction_level":"Region",
     "predicted_responsible_body":"Region of Waterloo Transportation Services",
-    "confidence":0.58,
     "sources":[
       "https:\/\/www.regionofwaterloo.ca\/"
     ],
-    "retrieved_candidates":[
-      {
-        "service_name":"snow removal on regional roads",
-        "jurisdiction_level":"Region",
-        "retrieval_score":4.0
-      },
-      {
-        "service_name":"road pothole on regional road",
-        "jurisdiction_level":"Region",
-        "retrieval_score":3.0
-      },
-      {
-        "service_name":"snow removal on city streets",
-        "jurisdiction_level":"City",
-        "retrieval_score":3.0
-      }
-    ]
+    "question":"Who clears snow on regional roads?",
+    "expected_jurisdiction_level":"Region",
+    "expected_responsible_body":"Region of Waterloo Transportation Services"
   },
   {
-    "question":"Who do I call about restaurant inspections?",
-    "expected_service_name":"public health inspections",
-    "expected_jurisdiction_level":"Region",
-    "expected_responsible_body":"Region of Waterloo Public Health",
     "predicted_service_name":"public health inspections",
     "predicted_jurisdiction_level":"Region",
     "predicted_responsible_body":"Region of Waterloo Public Health",
-    "confidence":0.78,
     "sources":[
       "https:\/\/www.regionofwaterloo.ca\/"
     ],
-    "retrieved_candidates":[
-      {
-        "service_name":"public health inspections",
-        "jurisdiction_level":"Region",
-        "retrieval_score":2.0
-      }
-    ]
+    "question":"Who do I call about restaurant inspections?",
+    "expected_jurisdiction_level":"Region",
+    "expected_responsible_body":"Region of Waterloo Public Health"
   }
 ]

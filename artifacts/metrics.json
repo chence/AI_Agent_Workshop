@@ -2,13 +2,5 @@
   "jurisdiction_accuracy": 0.875,
   "responsible_body_accuracy": 0.875,
   "source_presence_rate": 1.0,
-  "avg_confidence": 0.6799999999999999,
-  "n_examples": 8,
-  "config": {
-    "model_name": "gemini-2.5-flash",
-    "use_tool_calling": true,
-    "top_k": 3,
-    "min_score": 1.0,
-    "ambiguity_margin": 1.0
-  }
+  "n_examples": 8
 }

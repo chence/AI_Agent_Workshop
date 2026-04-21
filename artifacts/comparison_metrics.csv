@@ -1,0 +1,4 @@
+method,service_name_accuracy,jurisdiction_accuracy,responsible_body_accuracy,source_presence_rate,n_examples
+keyword_baseline,0.7692307692307693,0.9230769230769231,0.7692307692307693,1.0,13
+retrieval_augmented_model,0.7692307692307693,0.9230769230769231,0.7692307692307693,1.0,13
+tool_using_agent,0.7692307692307693,0.9230769230769231,0.7692307692307693,1.0,13
